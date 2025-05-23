@@ -3,7 +3,8 @@ import numpy as np
 import constant as const
 from smrts_fiscal_data import EXPANSION_OPERATION_SMRTS_DUMMY141516, EXPANSION_INSURANCE_SMRTS_DUMMY141516, EFF_DICT_DUMMY141516, LAMBDA_DICT_DUMMY141516, INSURANCE_SMRTS181920, OPERATION_SMRTS181920, EFF_DICT181920, LAMBDA_DICT181920
 import calculating_utils as cal_utils
-        
+
+
 #%%
 def year_determin(year:int):
     if year in [14, 15, 16]:
