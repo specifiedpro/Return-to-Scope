@@ -7,6 +7,8 @@ import solver
 from load_data import denoise_nonpositive, LIFE141516, LIFE_DUMMY141516, LIFE181920
 import time
 #%%
+
+
 def sys_smrts(df:pd.DataFrame, project=False, div_norm=6, round_to=6):
     ## transform data
     ## s-MRTS for  whole system
